@@ -808,6 +808,7 @@ export namespace Components {
     }
     interface GcdsMapLayer {
         "checked": boolean;
+        "hidden": boolean;
         "label": string;
         "opacity": number;
         "src": string;
@@ -2770,6 +2771,7 @@ declare namespace LocalJSX {
     }
     interface GcdsMapLayer {
         "checked"?: boolean;
+        "hidden"?: boolean;
         "label"?: string;
         "opacity"?: number;
         "src"?: string;
